@@ -82,7 +82,7 @@ agent-service-project/
 
 | 课时 | 文件夹 | 内容 | 核心知识点 |
 | :---: | :--- | :--- | :--- |
-| 01 | [01_log_path_tools](./01_log_path_tools) | 日志和路径工具 | `logging` 配置, `os.path` 处理 |
+| 01 | [01_log_path_tools](./01_log_path_tools) | 日志和路径工具 | `logging` 配置, `os.path` 处理 | ✅ 已完成 |
 | 02 | [02_config_file_prompt](./02_config_file_prompt) | 配置/文件/提示词 | 配置加载, 文件读写, 提示词模板 |
 | 03 | [03_vector_store](./03_vector_store) | 向量存储服务 | Chroma 封装, 向量检索 |
 | 04 | [04_rag_summarize](./04_rag_summarize) | RAG总结服务 | RAG 链路, 文档总结 |
