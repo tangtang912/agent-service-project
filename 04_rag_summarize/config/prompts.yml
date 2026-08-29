@@ -1,0 +1,4 @@
+# 提示词配置文件
+main_prompt_path: prompts/system_prompt.txt
+rag_summarize_prompt_path: prompts/rag_summarize_prompt.txt
+report_prompt_path: prompts/report_prompt.txt
