@@ -86,8 +86,8 @@ agent-service-project/
 | 02 | [02_config_file_prompt](./02_config_file_prompt) | 配置/文件/提示词 | 配置加载, 文件读写, 提示词模板 |✅ 已完成 |
 | 03 | [03_vector_store](./03_vector_store) | 向量存储服务 | Chroma 封装, 向量检索 |✅ 已完成 |
 | 04 | [04_rag_summarize](./04_rag_summarize) | RAG总结服务 | RAG 链路, 文档总结 |✅ 已完成 |
-| 05 | [05_tools](./05_tools) | tools工具开发 | `@tool` 装饰器, 工具定义 |
-| 06 | [06_middleware_agent](./06_middleware_agent) | 中间件和Agent创建 | Agent 生命周期, 中间件 |
+| 05 | [05_tools](./05_tools) | tools工具开发 | `@tool` 装饰器, 工具定义 |✅ 已完成 |
+| 06 | [06_middleware_agent](./06_middleware_agent) | 中间件和Agent创建 | Agent 生命周期, 中间件 |✅ 已完成 |
 | 07 | [07_web_ui](./07_web_ui) | 用户界面开发 | Streamlit 多页面, 交互设计 |
 
 ---
