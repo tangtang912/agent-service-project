@@ -88,7 +88,7 @@ agent-service-project/
 | 04 | [04_rag_summarize](./04_rag_summarize) | RAG总结服务 | RAG 链路, 文档总结 |✅ 已完成 |
 | 05 | [05_tools](./05_tools) | tools工具开发 | `@tool` 装饰器, 工具定义 |✅ 已完成 |
 | 06 | [06_middleware_agent](./06_middleware_agent) | 中间件和Agent创建 | Agent 生命周期, 中间件 |✅ 已完成 |
-| 07 | [07_web_ui](./07_web_ui) | 用户界面开发 | Streamlit 多页面, 交互设计 |
+| 07 | [07_web_ui](./07_web_ui) | 用户界面开发 | Streamlit 多页面, 交互设计 |✅ 已完成 |
 
 ---
 
