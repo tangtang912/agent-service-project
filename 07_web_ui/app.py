@@ -3,7 +3,7 @@ from agent.react_agent import ReactAgent
 from streamlit import session_state
 import time
 
-st.title("智扫通扫地机器人"）
+st.title("智扫通扫地机器人")
 st.divider()
 
 if "agent" not in st.session_state:
@@ -18,7 +18,7 @@ for message in st.session_state["message"]:
   prompt = st.chat_input()
 
   if prompt:
-    st.chat_message(user).write(prompt)
+    st.chat_message("user").write(prompt)
     st.session_state(message["role"].append("role":"user","content":prompt)
 
     response_message = []
@@ -32,9 +32,9 @@ for message in st.session_state["message"]:
         catch_list.append(chunk)
         for char in chunk:
           time.sleep(0.01)
-          yielf char
+          yield char
 
       st.chat_message(message["assistant"].write_stream(capture(res_stream,response_message)
-      st.session_state(message["role"]).append({"role":"assiatant","content":response_message[-1]})
+      st.session_state["message"].append({"role":"assistant","content":response_message[-1]})
       st.rerun()
           
